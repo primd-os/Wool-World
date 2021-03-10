@@ -1,0 +1,1 @@
+execute as @s[predicate=bridgeworld:in_dimension] run scoreboard players set @s bridge.items 31415
