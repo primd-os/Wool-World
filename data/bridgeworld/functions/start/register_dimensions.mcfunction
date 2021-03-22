@@ -1,1 +1,0 @@
-execute as @s[nbt={SpawnDimension:"bridgeworld:bridgeworld"}] in bridgeworld:bridgeworld run function hub:main/death_warp

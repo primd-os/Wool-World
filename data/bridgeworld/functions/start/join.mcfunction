@@ -10,4 +10,4 @@ give @s shears{Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:1s}]}
 give @s oak_sign 16
 gamemode survival @s
 execute in bridgeworld:bridgeworld run tp @s 0 260 0
-execute in bridgeworld:bridgeworld run spawnpoint @s 0 260 0
+execute in bridgeworld:bridgeworld positioned 0 260 0 run function hub:main/death/spawnpoint
