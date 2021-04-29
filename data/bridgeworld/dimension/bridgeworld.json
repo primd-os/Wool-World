@@ -1,18 +1,13 @@
 {
+  "type": "bridgeworld:bridgeworld_type",
   "generator": {
-    "settings": {
-      "structures": {
-        "structures": {}
-      },
-      "layers": [
-        {
-          "height": 1,
-          "block": "minecraft:air"
-        }
-      ],
-      "biome": "minecraft:the_void"
+    "type": "minecraft:noise",
+    "seed": 1200999008,
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "seed": 1200999007,
+      "biome": "bridgeworld:biome"
     },
-    "type": "minecraft:flat"
-  },
-  "type": "bridgeworld:bridgeworld_type"
+    "settings": "bridgeworld:noise"
+  }
 }

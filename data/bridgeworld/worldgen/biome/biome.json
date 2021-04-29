@@ -1,0 +1,38 @@
+{
+    "surface_builder": "bridgeworld:surface",
+    "depth": 0.1,
+    "scale": 0.2,
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "precipitation": "none",
+    "category": "plains",
+    "effects": {
+        "sky_color": 7907327,
+        "fog_color": 12638463,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+    },
+    "starts": [],
+    "spawners": {
+        "creature": [
+            {
+                "type": "minecraft:sheep",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 2
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+        [
+            "bridgeworld:black",
+            "bridgeworld:blue",
+            "bridgeworld:green",
+            "bridgeworld:pink",
+            "bridgeworld:purple",
+            "bridgeworld:red"
+        ]
+    ]
+}
