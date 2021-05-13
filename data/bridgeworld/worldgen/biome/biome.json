@@ -14,14 +14,6 @@
     },
     "starts": [],
     "spawners": {
-        "creature": [
-            {
-                "type": "minecraft:sheep",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 2
-            }
-        ]
     },
     "spawn_costs": {},
     "carvers": {},
@@ -30,7 +22,7 @@
             "bridgeworld:black",
             "bridgeworld:blue",
             "bridgeworld:green",
-            "bridgeworld:pink",
+            "bridgeworld:magenta",
             "bridgeworld:purple",
             "bridgeworld:red"
         ]
