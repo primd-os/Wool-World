@@ -9,5 +9,5 @@ give @s magenta_wool 64
 give @s shears{Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:1s}]} 1
 give @s oak_sign 16
 gamemode survival @s
-execute in bridgeworld:bridgeworld run tp @s 0 260 0
-execute in bridgeworld:bridgeworld positioned 0 260 0 run function hub:main/death/spawnpoint
+execute in bridgeworld:bridgeworld run tp @s 0 254 0
+execute in bridgeworld:bridgeworld positioned 0 254 0 run function hub:main/death/spawnpoint
