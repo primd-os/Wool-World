@@ -10,5 +10,6 @@ give @s shears{Unbreakable:1b,Enchantments:[{id:"minecraft:efficiency",lvl:1s}]}
 give @s oak_sign 16
 effect give @s saturation 1000000 1 true
 gamemode survival @s
-execute in bridgeworld:bridgeworld run tp @s 0 254 0
-execute in bridgeworld:bridgeworld positioned 0 254 0 run function hub:main/death/spawnpoint
+execute in woolworld:woolworld run tp @s 0 254 0
+execute in woolworld:woolworld positioned 0 254 0 run function hub:main/death/spawnpoint
+team join ww.Team @s

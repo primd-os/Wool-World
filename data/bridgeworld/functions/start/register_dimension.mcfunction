@@ -1,1 +1,0 @@
-execute if data storage rx:io playerdb.player.data.primd.hub{spawnDim:"bridgeworld:bridgeworld"} in bridgeworld:bridgeworld run function hub:main/death/warp

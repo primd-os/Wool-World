@@ -1,0 +1,1 @@
+execute as @s[predicate=woolworld:in_dimension] run scoreboard players set @s ww.items 31415

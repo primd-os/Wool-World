@@ -15,12 +15,12 @@
     "carvers": {},
     "features": [
         [
-            "bridgeworld:black",
-            "bridgeworld:blue",
-            "bridgeworld:green",
-            "bridgeworld:magenta",
-            "bridgeworld:purple",
-            "bridgeworld:red"
+            "woolworld:black",
+            "woolworld:blue",
+            "woolworld:green",
+            "woolworld:magenta",
+            "woolworld:purple",
+            "woolworld:red"
         ]
     ]
 }

@@ -1,13 +1,13 @@
 {
-  "type": "bridgeworld:bridgeworld_type",
+  "type": "woolworld:woolworld_type",
   "generator": {
     "type": "minecraft:noise",
     "seed": 1200999008,
     "biome_source": {
       "type": "minecraft:fixed",
       "seed": 1200999007,
-      "biome": "bridgeworld:biome"
+      "biome": "woolworld:biome"
     },
-    "settings": "bridgeworld:noise"
+    "settings": "woolworld:noise"
   }
 }

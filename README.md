@@ -1,4 +1,4 @@
-# BridgeWorld
+# Wool World
 
 The datapack used for the PRIMD server wool world.
 
