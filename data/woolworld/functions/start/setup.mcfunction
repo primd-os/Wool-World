@@ -8,3 +8,5 @@ team add ww.Team
 team modify ww.Team prefix {"text": "Wool World | "}
 team modify ww.Team collisionRule always
 team modify ww.Team friendlyFire true
+
+schedule function woolworld:main/main 1t replace
