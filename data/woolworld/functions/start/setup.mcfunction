@@ -1,6 +1,7 @@
 execute in woolworld:woolworld run forceload add -15 -15 15 15
 execute in woolworld:woolworld run setblock 0 10 0 bedrock
 execute in woolworld:woolworld run forceload remove -15 -15 15 15
+scoreboard objectives add ww.Variables dummy
 scoreboard objectives add ww.items dummy
 scoreboard objectives add Spawnpoint trigger
 

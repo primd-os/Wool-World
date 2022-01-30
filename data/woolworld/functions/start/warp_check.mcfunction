@@ -1,0 +1,1 @@
+execute if score @s warp = GameId ww.Variables run function woolworld:start/join
