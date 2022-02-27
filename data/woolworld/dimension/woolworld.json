@@ -2,12 +2,11 @@
   "type": "woolworld:woolworld_type",
   "generator": {
     "type": "minecraft:noise",
-    "seed": 1200999008,
+    "seed": -1094602607,
+    "settings": "woolworld:noise",
     "biome_source": {
       "type": "minecraft:fixed",
-      "seed": 1200999007,
       "biome": "woolworld:biome"
-    },
-    "settings": "woolworld:noise"
+    }
   }
 }
