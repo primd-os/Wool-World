@@ -1,0 +1,1 @@
+tellraw @s[predicate=woolworld:in_dimension] [{"text":"/trigger spawnpoint "},{"text":"Sets spawnpoint","color":"gray"}]

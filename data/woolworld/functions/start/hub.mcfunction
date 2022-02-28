@@ -1,1 +1,1 @@
-scoreboard players reset @s Spawnpoint
+scoreboard players reset @s spawnpoint

@@ -7,7 +7,7 @@
   "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:black_wool"
+    "Name": "minecraft:gray_wool"
   },
   "default_fluid": {
     "Name": "minecraft:air"
@@ -70,7 +70,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:red_wool"
+            "Name": "minecraft:brown_wool"
           }
         }
       }

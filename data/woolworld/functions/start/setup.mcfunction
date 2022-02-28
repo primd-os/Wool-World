@@ -3,7 +3,7 @@ execute in woolworld:woolworld run setblock 0 10 0 bedrock
 execute in woolworld:woolworld run forceload remove -15 -15 15 15
 scoreboard objectives add ww.Variables dummy
 scoreboard objectives add ww.items dummy
-scoreboard objectives add Spawnpoint trigger
+scoreboard objectives add spawnpoint trigger
 
 team add ww.Team
 team modify ww.Team prefix {"text": "Wool World | "}
