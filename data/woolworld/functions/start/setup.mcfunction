@@ -4,6 +4,10 @@ execute in woolworld:woolworld run forceload remove -15 -15 15 15
 scoreboard objectives add ww.Variables dummy
 scoreboard objectives add ww.items dummy
 scoreboard objectives add spawnpoint trigger
+scoreboard objectives add warp_to_spawn trigger
+
+scoreboard objectives add ww_tpa trigger
+scoreboard objectives add ww.teleportDestination dummy
 
 team add ww.Team
 team modify ww.Team prefix {"text": "Wool World | "}

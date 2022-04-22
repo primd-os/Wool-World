@@ -47,6 +47,7 @@
     "continents": 0,
     "erosion": 0,
     "depth": 0,
+    "ridges": 0,
     "initial_density_without_jaggedness": {
       "type": "minecraft:mul",
       "argument1": 4,

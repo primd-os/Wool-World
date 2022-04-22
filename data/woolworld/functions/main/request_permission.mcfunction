@@ -1,0 +1,2 @@
+scoreboard players operation @a[tag=ww.activePlayer,limit=1] ww.teleportDestination = @s hub.UUID1
+tellraw @s [{"selector":"@a[tag=ww.activePlayer,limit=1]"},{"text":" wants to teleport to you.  Do \"/trigger ww_tpa set "},{"score":{"name": "@a[tag=ww.activePlayer,limit=1]","objective": "hub.UUID1"}},{"text":"\" to accept."}]

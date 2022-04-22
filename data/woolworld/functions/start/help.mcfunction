@@ -1,1 +1,3 @@
 tellraw @s[predicate=woolworld:in_dimension] [{"text":"/trigger spawnpoint "},{"text":"Sets spawnpoint","color":"gray"}]
+tellraw @s[predicate=woolworld:in_dimension] [{"text":"/trigger warp_to_spawn "},{"text":"Teleports player to 0, 0","color":"gray"}]
+tellraw @s[predicate=woolworld:in_dimension] [{"text":"/trigger ww_tpa "},{"text":"Allows the player to teleport to other players","color":"gray"}]
