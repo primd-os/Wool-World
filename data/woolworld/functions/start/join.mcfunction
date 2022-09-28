@@ -22,6 +22,7 @@ give @s pink_wool 64
 give @s light_gray_wool 64
 give @s cyan_wool 64
 
+effect give @s jump_boost 10 255 true
 effect give @s saturation 1 100 true
 gamemode survival @s
 execute in woolworld:woolworld run tp @s 0 254 0

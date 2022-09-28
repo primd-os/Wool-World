@@ -4,8 +4,8 @@
       "targets": [
         {
           "target": {
-            "tag": "minecraft:wool",
-            "predicate_type": "minecraft:tag_match"
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:gray_wool"
           },
           "state": {
             "Name": "minecraft:pink_wool"

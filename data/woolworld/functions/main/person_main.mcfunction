@@ -1,9 +1,14 @@
 kill @s[y=-20,dy=10]
 effect give @s[scores={hub.foodLevel=..19}] minecraft:saturation 1 0 true
-execute if block ~ ~ ~ yellow_carpet run effect give @s minecraft:speed 1 9 true
-execute if block ~ ~ ~ magenta_carpet run effect give @s minecraft:levitation 1 9 true
-execute if block ~ ~ ~ lime_carpet run effect give @s minecraft:jump_boost 1 9 true
+
+execute if block ~ ~ ~ yellow_carpet unless block ~ ~-1 ~ yellow_wool run effect give @s minecraft:speed 1 6 true
+execute if block ~ ~ ~ yellow_carpet if block ~ ~-1 ~ yellow_wool run effect give @s minecraft:speed 1 14 true
+execute if block ~ ~ ~ magenta_carpet unless block ~ ~-1 ~ magenta_wool run effect give @s minecraft:levitation 1 6 true
+execute if block ~ ~ ~ magenta_carpet if block ~ ~-1 ~ magenta_wool run effect give @s minecraft:levitation 1 14 true
+execute if block ~ ~ ~ lime_carpet unless block ~ ~-1 ~ lime_wool run effect give @s minecraft:jump_boost 1 6 true
+execute if block ~ ~ ~ lime_carpet if block ~ ~-1 ~ lime_wool run effect give @s minecraft:jump_boost 1 14 true
 execute if block ~ ~ ~ white_carpet run effect clear @s
+
 execute as @s[scores={ww.items=31415}] run function woolworld:main/p_inv_changed
 
 scoreboard players enable @s spawnpoint
